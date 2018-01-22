@@ -1,5 +1,7 @@
 from email_service import create_app
-
+"""
+This file is for AWS Elastic Beanstalk deployment. It requires a application.py file and application is named as application.
+"""
 application = create_app()
 
 if __name__ == '__main__':
