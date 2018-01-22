@@ -7,7 +7,7 @@ class BaseConfig(object):
     """Base configuration."""
     DEBUG = False
     SENDGRID_API_KEY = # Put your SnedGrid API key here
-    MAILGUN_MESSAGE_BASE_URL = #Put your MailGun base URL here 
+    MAILGUN_MESSAGE_BASE_URL = #Put your MailGun base URL here
     MAILGUN_API_KEY = # Put your MailGun API key here
 
     # Email Service names

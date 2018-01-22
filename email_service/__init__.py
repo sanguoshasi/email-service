@@ -29,7 +29,7 @@ def create_app():
 
     # set config
     app_settings = os.getenv(
-        'EMAIL_SERVICE_SETTINGS', 'email_service.config.DevelopmentConfig')
+        'EMAIL_SERVICE_SETTINGS', 'config.DevelopmentConfig')
     app.config.from_object(app_settings)
 
     # set up email_services

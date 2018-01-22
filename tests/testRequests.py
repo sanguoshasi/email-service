@@ -34,7 +34,7 @@ class RequestTests(unittest.TestCase):
         assert CONTENT_TOO_LONG == validate_send_request(message_with_empty_too_long_content).message
 
     @mock.patch.object(MailgunEmail, 'send')
-    def test_using_mandrill(self, mailgun_send):
+    def test_using_mailgun(self, mailgun_send):
         mailgun_send.return_value = ErrorResult("error message")
         result = self.email_mgr.submit_email(valid_message)
         assert_success_result(result)
