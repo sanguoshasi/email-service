@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Send email now!</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='view.css') }}" media="all">
+    <script type="text/javascript" src="{{ url_for('static', filename='view.js') }}"></script>
+
+</head>
+
+<body id="main_body">
+
+    <img id="top" src="{{ url_for('static', filename='top.png') }}" alt="">
+    <div id="form_container">
+
+        <h1><a>Send email now!</a></h1>
+        <form id="form_67520" class="appnitro" enctype="multipart/form-data" method="post" action="">
+            <div class="form_description">
+                <h2>Send email now!</h2>
+                <p>Fill below form now and your email will be sent from Mailgun/SendGrid service. If failed, the other service will be tried.</p>
+            </div>
+            <ul>
+                <li id="li_7">
+                    {% if message %}
+                        <label class="description" style="color:red">{{ message }} </label>
+                    {% endif %}
+                </li>
+                <li id="li_0" >
+		            <label class="description" for="element_0">Mock SendGrid is not available </label>
+		            <span>
+			            <input id="element_0" name="skip_sendgrid" class="element checkbox" type="checkbox" value="1" />
+                        <label class="choice" for="element_0">SendGrid is not available</label>
+                    </span>
+                    <p class="guidelines" id="guide_0"><small>If box is checked, SendGrid service will be marked as unavailable.</small></p>
+		        </li>
+                <li id="li_1">
+                    <label class="description" for="element_1">From: </label>
+                    <div>
+                        <input id="element_1" name="from_email" class="element text medium" type="text" maxlength="255" value="" />
+                    </div>
+                    <p class="guidelines" id="guide_1"><small>Required</small></p>
+                </li>
+                <li id="li_2">
+                    <label class="description" for="element_2">To: </label>
+                    <div>
+                        <input id="element_2" name="to_email" class="element text medium" type="text" maxlength="255" value="" />
+                    </div>
+                    <p class="guidelines" id="guide_2"><small>Required</small></p>
+                </li>
+                <li id="li_3">
+                    <label class="description" for="element_3">cc: </label>
+                    <div>
+                        <input id="element_3" name="cc_emails" class="element text large" type="text" maxlength="500" value="" />
+                    </div>
+                    <p class="guidelines" id="guide_3"><small>Optional. Separate emails by comma. No more than 100 emails.</small></p>
+                </li>
+
+                <li id="li_5">
+                    <label class="description" for="element_5">Subject: </label>
+                    <div>
+                        <input id="element_5" name="subject" class="element text large" type="text" maxlength="255" value="" />
+                    </div>
+                <p class="guidelines" id="guide_4"><small>Required</small></p>
+                </li>
+                <li id="li_4">
+                    <label class="description" for="element_4">Attachment: </label>
+                    <div>
+                        <input id="element_4" name="attachment" class="element file" type="file" />
+                    </div>
+                    <p class="guidelines" id="guide_5"><small>Optional. Only support one attachment. Could not be larger than 25MB.</small></p>
+                </li>
+                <li id="li_6">
+                    <label class="description" for="element_6">Text: </label>
+                    <div>
+                        <textarea id="element_6" name="content" class="element textarea medium"></textarea>
+                    </div>
+                    <p class="guidelines" id="guide_6"><small>Required. Plain text only.</small></p>
+                </li>
+
+                <li class="buttons">
+                    <input type="hidden" name="form_id" value="67520" />
+
+                    <input id="saveForm" class="button_text" type="submit" name="submit" value="Sent now" />
+                </li>
+            </ul>
+        </form>
+    </div>
+    <img id="bottom" src="{{ url_for('static', filename='bottom.png') }}" alt="">
+</body>
+
+</html>

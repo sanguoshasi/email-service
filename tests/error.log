@@ -1,0 +1,52 @@
+Getting an error from Mailgun: response code: 400, message: 'to' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: 'from' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: 'to' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: 'from' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: Need at least one of 'text' or 'html' parameters specified 
+Get an exception when calling SendGridEmail to send the email!
+Traceback (most recent call last):
+  File "/Users/dayun/wordspace/email-service2/email_service/simpleEmail.py", line 129, in send
+    response = sg_client.client.mail.send.post(request_body=mail.get())
+  File "/Library/Python/2.7/site-packages/python_http_client/client.py", line 227, in http_request
+    return Response(self._make_request(opener, request))
+  File "/Library/Python/2.7/site-packages/python_http_client/client.py", line 161, in _make_request
+    raise exc
+BadRequestsError
+Get an exception when calling SendGridEmail to send the email!
+Traceback (most recent call last):
+  File "/Users/dayun/wordspace/email-service2/email_service/simpleEmail.py", line 129, in send
+    response = sg_client.client.mail.send.post(request_body=mail.get())
+  File "/Library/Python/2.7/site-packages/python_http_client/client.py", line 227, in http_request
+    return Response(self._make_request(opener, request))
+  File "/Library/Python/2.7/site-packages/python_http_client/client.py", line 161, in _make_request
+    raise exc
+BadRequestsError
+Get an exception when calling SendGridEmail to send the email!
+Traceback (most recent call last):
+  File "/Users/dayun/wordspace/email-service2/email_service/simpleEmail.py", line 129, in send
+    response = sg_client.client.mail.send.post(request_body=mail.get())
+  File "/Library/Python/2.7/site-packages/python_http_client/client.py", line 227, in http_request
+    return Response(self._make_request(opener, request))
+  File "/Library/Python/2.7/site-packages/python_http_client/client.py", line 161, in _make_request
+    raise exc
+BadRequestsError
+Getting an error from Mailgun: response code: 400, message: 'to' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: 'from' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: 'to' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: 'from' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: Need at least one of 'text' or 'html' parameters specified 
+Getting an error from Mailgun: response code: 400, message: 'to' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: 'from' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: 'to' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: 'from' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: Need at least one of 'text' or 'html' parameters specified 
+Getting an error from Mailgun: response code: 400, message: 'to' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: 'from' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: 'to' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: 'from' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: Need at least one of 'text' or 'html' parameters specified 
+Getting an error from Mailgun: response code: 400, message: 'to' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: 'from' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: 'to' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: 'from' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: Need at least one of 'text' or 'html' parameters specified 

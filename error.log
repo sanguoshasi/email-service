@@ -1,0 +1,5 @@
+Getting an error from Mailgun: response code: 400, message: 'to' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: 'from' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: 'to' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: 'from' parameter is not a valid address. please check documentation 
+Getting an error from Mailgun: response code: 400, message: Need at least one of 'text' or 'html' parameters specified 
