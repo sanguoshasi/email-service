@@ -69,7 +69,6 @@ $ python manager.py cov
 
 ##Usage
 You can use the [live site](http://email.buyongqucai.com/)  or make a post to the ```/``` end point directly.
-Current production SendGrid account is suspended while service is still returning success result.
 e.g.
 
 ```
